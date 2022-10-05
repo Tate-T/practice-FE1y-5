@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header section */
+
+.header-link {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #7d7d7d;
+}
+
+.header-link:hover {
+  color: #03a9f4;
+}
+
+.gallery-item {
+  width: 420px;
+}
+
+.gallery-item:hover {
+  /* background-color: aqua; */
+  box-shadow: 2px 1px 5px rgba(6, 184, 244), 2px 2px 0px rgba(226, 242, 7),
+    0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-name {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 11.14;
+  color: #b4ad9e;
+}
+
+.gallery-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.33;
+  color: #626262;
+}
+
+.gallery-description {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #626262;
+}
+
+.gallery-button {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #626262;
+}
+
+.gallery-button:hover {
+  background-color: #03a9f4;
+  color: yellow;
+  border: none;
+  padding: 10px;
+}
