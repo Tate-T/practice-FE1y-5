@@ -1,0 +1,32 @@
+header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header-item {
+  margin-left: 100px;
+  transition: transform 500ms linear 250ms;
+}
+
+.header-item:first-child {
+  margin-left: 0;
+}
+
+.header-item:hover {
+  transform: scale(1.5);
+}
+
+.header-link {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #7d7d7d;
+}
+
+.header-link:hover {
+  color: #03a9f4;
+}
