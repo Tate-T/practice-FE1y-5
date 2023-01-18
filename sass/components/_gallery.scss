@@ -29,7 +29,7 @@ main {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.14;
-  color: #b4ad9e;
+  color:$secondary-text-color;
 
   margin-top: 32px;
   margin-bottom: 32px;
@@ -38,13 +38,13 @@ main {
 .gallery-title {
   font-size: 30px;
   line-height: 1.33;
-  color: #626262;
+  color:$main-texts-color;
 }
 
 .gallery-description {
   font-size: 14px;
   line-height: 1.36;
-  color: #626262;
+  color: $main-texts-color;
 
   margin-top: 40px;
 }
@@ -57,13 +57,13 @@ main {
   margin-right: auto;
   font-size: 14px;
   line-height: 1.36;
-  color: #626262;
+  color: $main-texts-color;
   transition: transform 1s linear 250ms;
 }
 
 .gallery-button:hover {
   border-radius: 5px;
-  background-color: #03a9f4;
+  background-color: $accent-color;
   color: yellow;
   border: none;
   padding: 10px;
