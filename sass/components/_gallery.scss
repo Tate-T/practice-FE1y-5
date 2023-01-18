@@ -6,8 +6,7 @@ main {
 }
 
 .gallery-list {
-  display: flex;
-  flex-wrap: wrap;
+  @extend %flex;
 }
 
 .gallery-item {

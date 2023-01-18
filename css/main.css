@@ -1,3 +1,10 @@
+.gallery-list, .header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,11 +35,6 @@ header {
   padding-bottom: 92px;
 }
 
-.header-list {
-  display: flex;
-  justify-content: center;
-}
-
 .header-item {
   margin-left: 100px;
   transition: transform 500ms linear 250ms;
@@ -61,11 +63,6 @@ main {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 66px;
-}
-
-.gallery-list {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .gallery-item {
