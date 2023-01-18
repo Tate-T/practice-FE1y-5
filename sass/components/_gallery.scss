@@ -41,10 +41,8 @@ main {
 }
 
 .gallery-description {
-  font-size: 14px;
-  line-height: 1.36;
+  @extend %text;
   color: $main-texts-color;
-
   margin-top: 40px;
 }
 
@@ -54,8 +52,7 @@ main {
   height: 60px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 14px;
-  line-height: 1.36;
+  @extend %text;
   color: $main-texts-color;
   transition: transform 1s linear 250ms;
 }

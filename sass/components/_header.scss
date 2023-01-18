@@ -21,8 +21,7 @@ header {
 }
 
 .header-link {
-  font-size: 14px;
-  line-height: 1.36;
+  @extend %text;
   color:$navigation-links-color;
 }
 

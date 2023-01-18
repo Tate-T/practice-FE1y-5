@@ -5,6 +5,11 @@
   flex-wrap: wrap;
 }
 
+.gallery-button, .gallery-description, .header-link {
+  font-size: 14px;
+  line-height: 1.36;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,8 +54,6 @@ header {
 }
 
 .header-link {
-  font-size: 14px;
-  line-height: 1.36;
   color: #7D7D7D;
 }
 
@@ -95,8 +98,6 @@ main {
 }
 
 .gallery-description {
-  font-size: 14px;
-  line-height: 1.36;
   color: #626262;
   margin-top: 40px;
 }
@@ -107,8 +108,6 @@ main {
   height: 60px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 14px;
-  line-height: 1.36;
   color: #626262;
   transition: transform 1s linear 250ms;
 }
