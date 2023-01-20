@@ -1,35 +1,45 @@
 header {
   padding-top: 71px;
   padding-bottom: 92px;
+
+  &-list {
+    @extend %flex;
+  }
+
+  &-item {
+    margin-left: 100px;
+    transition: transform 500ms linear 250ms;
+    &:first-child {
+      margin-left: 0;
+    }
+  
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  &-link {
+    @extend %text;
+    color:$navigation-links-color;
+  
+    &:hover {
+      color: $accent-color;
+    }
+    
+  }
+  
+  &-button{
+    @include button($button-color: red, $button-border-radius: 50%);
+    @extend %text;
+  }
+  
 }
 
-.header-list {
-  @extend %flex;
-}
 
-.header-item {
-  margin-left: 100px;
-  transition: transform 500ms linear 250ms;
-}
 
-.header-item:first-child {
-  margin-left: 0;
-}
 
-.header-item:hover {
-  transform: scale(1.5);
-}
 
-.header-link {
-  @extend %text;
-  color:$navigation-links-color;
-}
 
-.header-link:hover {
-  color: $accent-color;
-}
 
-.header-button{
-  @include button($button-color: red, $button-border-radius: 50%);
-  @extend %text;
-}
+
+
