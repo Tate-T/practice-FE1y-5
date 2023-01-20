@@ -28,3 +28,8 @@ header {
 .header-link:hover {
   color: $accent-color;
 }
+
+.header-button{
+  @include button($button-color: red, $button-border-radius: 50%);
+  @extend %text;
+}

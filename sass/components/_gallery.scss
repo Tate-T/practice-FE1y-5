@@ -46,15 +46,14 @@ main {
   margin-top: 40px;
 }
 
-.gallery-button {
-  display: block;
-  width: 165px;
-  height: 60px;
-  margin-left: auto;
-  margin-right: auto;
+.gallery-btn{
+  @include button($button-color: blue, $button-border-radius: 5px);
   @extend %text;
-  color: $main-texts-color;
-  transition: transform 1s linear 250ms;
+}
+
+.gallery-button {
+  @include button($button-color: green, $button-border-radius: 7px);
+  @extend %text;
 }
 
 .gallery-button:hover {

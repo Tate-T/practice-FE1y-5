@@ -1,0 +1,10 @@
+@mixin button($button-color, $button-border-radius){
+    color: $button-color;
+    display: block;
+    width: 165px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 1s linear 250ms;
+    border-radius: $button-border-radius;
+}
