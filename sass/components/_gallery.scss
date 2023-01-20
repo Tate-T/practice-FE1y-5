@@ -12,16 +12,16 @@ main {
 .gallery-item {
   width: 420px;
   margin-bottom: 130px;
-}
-
-.gallery-item:nth-child(2n) {
+  &:nth-child(2n) {
   margin-left: 65px;
+  
 }
-
-.gallery-item:hover {
+  &:hover {
   box-shadow: 2px 1px 5px rgb(6, 184, 244), 2px 2px 0px rgb(226, 242, 7),
     0px 2px 8px rgba(0, 0, 0, 0.2);
 }
+}
+
 
 .gallery-name {
   font-family: "Ubuntu";
@@ -54,9 +54,7 @@ main {
 .gallery-button {
   @include button($button-color: green, $button-border-radius: 7px);
   @extend %text;
-}
-
-.gallery-button:hover {
+  &:hover {
   border-radius: 5px;
   background-color: $accent-color;
   color: yellow;
@@ -64,3 +62,6 @@ main {
   padding: 10px;
   transform: rotate(360deg);
 }
+}
+
+
